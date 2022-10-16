@@ -1,12 +1,32 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+html,
+        body {
+            height: 100%;
+            background-color: #f44336;
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+        }
+
+        .ball {
+            width: 250px;
+            height: 250px;
+
+            border-radius: 125px;
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            background-color: #e7e7e7;
+            color: black;
+
+
+        }
+
+        #count {
+            /* margin:auto; */
+            margin-left: 120px;
+            margin-top: 110px;
+        }
+
+        #increment-button {
+            margin-left: 90px;
+            /* margin-top: 110px; */
+
+        }
